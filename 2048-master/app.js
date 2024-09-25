@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let score = 0
 
     // create the playing board
+    //my code
     function createBoard() {
         for (let i = 0; i < width * width; i++) {
             const square = document.createElement("div")
@@ -18,6 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
         generate()
     }
     createBoard()
+    //my code
+
 
     //generate a new number
     function generate() {
